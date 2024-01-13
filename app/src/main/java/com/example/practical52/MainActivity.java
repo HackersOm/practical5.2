@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Entered Name "+ed1.getText()+"")
+                Toast.makeText(getApplicationContext(),"Entered Name "+ed1.getText()+" \n"+ed2.getText()+"\n"+ed3.getText()+"\n",Toast.LENGTH_SHORT).show();
+
             }
         });
     }
